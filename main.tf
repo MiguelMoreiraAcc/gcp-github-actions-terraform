@@ -4,7 +4,7 @@
 # Create Infra Bucket
 resource "google_storage_bucket" "bucket" {
   name     = var.infra_bucket
-  location = var.region
+  location = var.region1
 }
 
 #########################################################################
@@ -34,7 +34,7 @@ resource "google_cloudfunctions_function" "function" {
   environment_variables = {
     key         = "123" 
     project_id  = var.project_id
-    region      = var.region
+    region      = var.region4
   }      
 }
 # IAM entry for all users to invoke the function
