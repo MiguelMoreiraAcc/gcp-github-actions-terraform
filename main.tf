@@ -35,7 +35,7 @@ resource "google_cloudfunctions_function" "function" {
     key         = "123" 
     project_id  = var.project_id
     region      = var.region_1
-  }      
+  }
 }
 # IAM entry for all users to invoke the function
 resource "google_cloudfunctions_function_iam_member" "invoker" {
