@@ -26,7 +26,7 @@
 
 ## About The Project
 
-- This project shows you how to connect your GCP project to GitHub Actions & run Terraform to spin up your infra from code instead of using the console or gcloud CLI.
+- This project shows you how to connect your GCP project to GitHub Actions & run Terraform to spin up your infra from code instead of using the console or gcloud CLI..
 - In this instance, we're using spinning up a bucket, adding an object to it, and creating a cloud function that references the object.
 
 <img src="images\ProcessMap.png" alt="Process Map"/>
