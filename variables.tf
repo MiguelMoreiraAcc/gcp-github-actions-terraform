@@ -13,3 +13,7 @@ variable "tf_state_bucket" {
 variable "infra_bucket" {
   type    = string
 }
+
+variable "resume_bucket" {
+  type    = string
+}
