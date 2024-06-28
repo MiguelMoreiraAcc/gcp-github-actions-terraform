@@ -1,5 +1,5 @@
 #########################################################################
-## Google Storage Definition v1
+## Google Storage Definition v1.1
 #########################################################################
 # Create Infra Bucket
 resource "google_storage_bucket" "bucket" {
