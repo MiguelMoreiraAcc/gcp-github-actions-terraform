@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0.0"
   backend "gcs" {
-    bucket = var.tf_state_bucket
+    bucket = "the-retina-394116-tfstate"
     prefix = "terraform/state"
   }
   required_providers {
