@@ -11,6 +11,7 @@ variable "region_4" {
 }
 
 variable "tf_state_bucket" {
+  description = "The name of the GCS bucket for storing Terraform state"
   type    = string
 }
 

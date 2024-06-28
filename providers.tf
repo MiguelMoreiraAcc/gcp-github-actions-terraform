@@ -5,8 +5,15 @@ provider "google" {
 }
 
 terraform {
+  required_version = ">= 1.0.0"
   backend "gcs" {
-    bucket = "the-retina-394116-tfstate"
+    bucket = var.tf_state_bucket
     prefix = "terraform/state"
+  }
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 5.0"  # specify the required version
+    }
   }
 } 
