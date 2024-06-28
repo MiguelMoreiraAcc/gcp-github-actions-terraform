@@ -1,4 +1,4 @@
-project_id = "my-project-id"
-region     = "us-east1"
-tf_state_bucket = "my-project-id-tfstate"
-infra_bucket = "my-project-id-infra"
+project_id = "the-retina-394116"
+region     = "europe-west4"
+tf_state_bucket = "the-retina-394116-tfstate"
+infra_bucket = "the-retina-394116-infra"
