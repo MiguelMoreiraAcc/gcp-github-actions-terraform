@@ -1,5 +1,5 @@
 project_id = "the-retina-394116"
-region     = "europe-west4"
+region     = "europe-west1"
 tf_state_bucket = "the-retina-394116-tfstate"
 infra_bucket = "the-retina-394116-infra"
 resume_bucket = "the-retina-394116-infra"
