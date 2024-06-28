@@ -37,8 +37,7 @@ jobs:
 
       - name: Run TFLint
         run: tflint -f compact
-        with:
-          tflint_version: v0.50.3
+
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest

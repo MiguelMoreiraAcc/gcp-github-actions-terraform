@@ -1,6 +1,7 @@
 provider "google" {
   project = var.project_id
   region  = var.region_1
+  version = "5.35.0"
 }
 
 terraform {
